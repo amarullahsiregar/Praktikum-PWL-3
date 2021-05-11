@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Register from './Register'
+import Header from './myHeader'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+let judul = "Prak PWL 2"
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+class Car extends React.Component {
+  constructor() {
+    super();
+    this.color = "blue"
+  }
+  render() {
+    return <h2>I am a {this.props.color} Car!</h2>;
+  }
+}
+
+ReactDOM.render(judul, document.getElementById('judul'));
+ReactDOM.render(<Header/>, document.getElementById('header'));
+ReactDOM.render(<Register/>, document.getElementById('body'));
