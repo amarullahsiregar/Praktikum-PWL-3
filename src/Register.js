@@ -31,7 +31,7 @@ class Register extends React.Component{
               <img src={logo} className="App-logo" alt="logo" />
               <h1><b>Sign up</b></h1>
               <input type="text" name="name" id="name" placeholder="Nama Depan*"/>
-              <input type="text" name="last-name" placeholder="Nama Keluarga" />
+              <input type="text" id="surname" placeholder="Nama Keluarga" />
               <input type="text" name="username" id="username" placeholder="Username *"/>
               <input type="password" name="password" placeholder="Password *"/>
               <input type="password" name="password2" placeholder="Retype password *"/>
