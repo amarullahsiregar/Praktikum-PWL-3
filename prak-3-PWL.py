@@ -17,7 +17,7 @@ for i in data['userdata']:
 
     browser.find_element_by_name('name').send_keys(
         i['name'])
-    browser.find_element_by_name('last-name').send_keys(
+    browser.find_element_by_name('surname').send_keys(
         i['surname'])
     browser.find_element_by_name('username').send_keys(
         i['username'])
