@@ -11,17 +11,10 @@ class Register extends React.Component{
           alert("Kolom bertanda * Tidak Boleh Kosong")
         }
     }
-    validateForm() {
-      var x = document.forms["myForm"]["fname"].value;
-      if (x == "" || x == null) {
-        alert("Name must be filled out");
-        return false;
-      }
-    }
     render() {
       return(
       <div className="App">
-          <form id="login-box" name="registerForm" action="" onsubmit="return validateForm()" method="post" required>
+          <div id="login-box">
               <table id="judul">
                   <tr>
                       <td class="kiri"><span class="circle">֍</span>Aplikasi</td>
@@ -35,8 +28,8 @@ class Register extends React.Component{
               <input type="text" name="username" id="username" placeholder="Username *"/>
               <input type="password" name="password" placeholder="Password *"/>
               <input type="password" name="password2" placeholder="Retype password *"/>
-              <input type="submit"  id="register_submit" value="Register" />
-          </form>
+              <input type="submit" onClick={this.jikaKosong.bind(this)} id="register_submit" value="Register" />
+          </div>
       </div>
       )
     }
