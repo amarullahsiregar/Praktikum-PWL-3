@@ -4,10 +4,16 @@ import logo from './register_logo.png';
 
 class Register extends React.Component{
     jikaKosong(){
-        if (document.getElementById('name').value!="") {
+      var namefield = document.getElementById('name')
+      var usernamefield = document.getElementById('username')
+      var passwordfield = document.getElementById('password')
+        if (namefield.value!==""
+            &&usernamefield.value!==""
+            &&passwordfield.value!=="") {
           alert("Berhasil !")
         }else{
-          document.getElementById('name').placeholder="Nama tidak boleh kosong"
+          namefield.placeholder="Nama tidak boleh kosong *"
+          usernamefield.placeholder="Username tidak boleh kosong *"
           alert("Kolom bertanda * Tidak Boleh Kosong")
         }
     }
