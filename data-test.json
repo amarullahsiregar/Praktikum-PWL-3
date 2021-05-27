@@ -23,60 +23,6 @@
             "username":"sir.mardan",
             "password":"IniPassword",
             "password2":"IniPassword"
-        },{
-            "name" : "Agus Alamsyah",
-            "surname" : "Siregar",
-            "username":"sir.alamsyah",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Fitri Adawiyah",
-            "surname" : "Siregar",
-            "username":"sir.adawiyah",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Mardan",
-            "surname" : "Siregar",
-            "username":"sir.mardan",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Agus Alamsyah",
-            "surname" : "Siregar",
-            "username":"sir.alamsyah",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Fitri Adawiyah",
-            "surname" : "Siregar",
-            "username":"sir.adawiyah",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Mardan",
-            "surname" : "Siregar",
-            "username":"sir.mardan",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Agus Alamsyah",
-            "surname" : "Siregar",
-            "username":"sir.alamsyah",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Fitri Adawiyah",
-            "surname" : "Siregar",
-            "username":"sir.adawiyah",
-            "password":"IniPassword",
-            "password2":"IniPassword"
-        },{
-            "name" : "Mardan",
-            "surname" : "Siregar",
-            "username":"sir.mardan",
-            "password":"IniPassword",
-            "password2":"IniPassword"
         }
     ]
 }
