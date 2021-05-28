@@ -145,15 +145,23 @@ input[type="submit"]:active {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /* animation: App-logo-spin infinite 1s linear; */
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo-spinY {
   from {
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes App-logo-spinX {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
   }
 }

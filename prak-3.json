@@ -1,0 +1,52 @@
+[{
+    "testcase_name" : "field nama kosong",
+    "data":{
+        "name": "",
+        "surname" : "Siregar",
+        "username": "sir.amarullah",
+        "password":"Inipassword",
+        "password2":"IniPassword"
+    },
+    "expected":"Lengkapi Kolom Nama, dan Pastikan re-password sesuai"
+},{
+    "testcase_name" : "field Surname kosong",
+    "data":{
+        "name": "Rahman Amarullah",
+        "surname" : "",
+        "username": "sir.amarullah",
+        "password":"Inipassword",
+        "password2":"IniPassword"
+    },
+    "expected":"Berhasil !"
+},{
+    "testcase_name" : "field Username kosong",
+    "data":{
+        "name": "Rahman Amarullah",
+        "surname" : "Siregar",
+        "username": "",
+        "password":"Inipassword",
+        "password2":"IniPassword"
+    },
+    "expected":"Lengkapi Kolom Username, dan Pastikan re-password sesuai"
+},{
+    "testcase_name" : "field Password kosong",
+    "data":{
+        "name": "Rahman Amarullah",
+        "surname" : "Siregar",
+        "username": "sir.amarullah",
+        "password":"",
+        "password2":"IniPassword"
+    },
+    "expected":"Lengkapi Kolom Password dan Pastikan re-password sesuai"
+},{
+    "testcase_name" : "field re-password tidak sama",
+    "data":{
+        "name": "Rahman Amarullah",
+        "surname" : "Siregar",
+        "username": "sir.amarullah",
+        "password":"Inipassword",
+        "password2":"BedaLagi"
+    },
+    "expected":"Lengkapi Kolom dan Pastikan re-password sesuai"
+}
+]
