@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Register from './Register'
 import Header from './myHeader'
+import './register.css';
 
 let judul = "Prak PWL 3"
 

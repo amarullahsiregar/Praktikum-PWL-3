@@ -1,5 +1,4 @@
 import React from 'react';
-import './register.css';
 import logo from './register_logo.png';
 
 class Register extends React.Component{
